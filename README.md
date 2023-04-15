@@ -1,4 +1,4 @@
-# ROS2_ur_moveit_examples
+# ros2_ur_moveit_examples
 ROS2 humble MoveIt examples for Universal Robots on Ubuntu 22.04.
 
 Examples from:
