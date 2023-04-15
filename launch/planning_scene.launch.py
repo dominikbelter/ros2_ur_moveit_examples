@@ -116,7 +116,7 @@ def generate_launch_description():
     )
 
     demo_node = Node(
-        package="moveit_example",
+        package="ros2_ur_moveit_examples",
         executable="planning_scene",
         name="planning_scene",
         output="screen",
