@@ -35,6 +35,9 @@ int main(int argc, char *argv[])
   using moveit::planning_interface::MoveGroupInterface;
   auto move_group_interface = MoveGroupInterface(node, "ur_manipulator");
 
+  RCLCPP_ERROR(logger, "test");
+  RCLCPP_ERROR(logger, "getDefaultPlanningPipelineId: %s", move_group_interface.getDefaultPlanningPipelineId().c_str());
+
   // Construct and initialize MoveItVisualTools
   auto moveit_visual_tools =
       moveit_visual_tools::MoveItVisualTools{node, "base_link", rviz_visual_tools::RVIZ_MARKER_TOPIC,

@@ -71,6 +71,10 @@ add_executable(planning_scene src/planning_scene.cpp)
 target_include_directories(planning_scene PUBLIC include)
 ament_target_dependencies(planning_scene moveit_common moveit_core moveit_ros_planning moveit_ros_planning_interface rviz_visual_tools moveit_visual_tools rclcpp std_msgs)
 
+add_executable(planning_scene_service src/planning_scene_service.cpp)
+target_include_directories(planning_scene_service PUBLIC include)
+ament_target_dependencies(planning_scene_service moveit_common moveit_core moveit_ros_planning moveit_ros_planning_interface rviz_visual_tools moveit_visual_tools rclcpp std_msgs)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -89,7 +93,7 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(TARGETS hello_moveit kinematics check_collisions planning_scene
+install(TARGETS hello_moveit kinematics check_collisions planning_scene planning_scene_service
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
