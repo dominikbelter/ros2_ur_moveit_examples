@@ -43,16 +43,16 @@ Add additional transformations:
 
 $ ros2 run tf2_ros static_transform_publisher 0 0 0.1 0.0 0.0 0.0 tool0 gripper
 
-$ ros2 run tf2_ros static_transform_publisher 0.3 0.3 0.1 0.0 3.14 0.0
+$ ros2 run tf2_ros static_transform_publisher 0.3 0.3 0.1 0.0 3.14 0.0 base_link object
 
 And run examples:
 
-$ ros2 launch moveit_example hello_moveit.launch.py
+$ ros2 launch ros2_ur_moveit_examples hello_moveit.launch.py
 
-$ ros2 launch moveit_example kinematics.launch.py
+$ ros2 launch ros2_ur_moveit_examples kinematics.launch.py
 
-$ ros2 launch moveit_example check_collisions.launch.py
+$ ros2 launch ros2_ur_moveit_examples check_collisions.launch.py
 
-$ ros2 launch moveit_example planning_scene.launch.py
+$ ros2 launch ros2_ur_moveit_examples planning_scene.launch.py
 
 Check the output in the terminal and in the RViz2.
