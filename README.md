@@ -43,7 +43,7 @@ Add additional transformations:
 
 $ ros2 run tf2_ros static_transform_publisher 0 0 0.1 0.0 0.0 0.0 tool0 gripper
 
-$ ros2 run tf2_ros static_transform_publisher 0.3 0.3 0.1 0.0 3.14 0.0
+$ ros2 run tf2_ros static_transform_publisher 0.3 0.3 0.1 0.0 3.14 0.0 base_link object
 
 And run examples:
 
