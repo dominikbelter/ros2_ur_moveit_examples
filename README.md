@@ -55,4 +55,6 @@ $ ros2 launch ros2_ur_moveit_examples check_collisions.launch.py
 
 $ ros2 launch ros2_ur_moveit_examples planning_scene.launch.py
 
+$ ros2 launch ros2_ur_moveit_examples planning_scene_service.launch.py
+
 Check the output in the terminal and in the RViz2.
