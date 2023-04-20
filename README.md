@@ -7,7 +7,7 @@ https://moveit.picknik.ai/humble/index.html
 
 and
 
-https://github.com/ros-planning/moveit2\_tutorials
+https://github.com/ros-planning/moveit2_tutorials
 
 Implemented for Universal Robots.
 
