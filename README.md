@@ -19,7 +19,7 @@ $ git clone https://github.com/dominikbelter/ROS2_ur_moveit_examples
 
 $ git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Description
 
-$ git clone https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
+$ git clone -b humble https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver
 
 $ cd ~/ros2_ws
 
